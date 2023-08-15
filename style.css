@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to right,lightblue,pink);
+    height: 80px;
+}
+.logo{
+    background: none;
+    margin-top: 19px;
+    margin-right: 400px;
+    color: white;
+    
+}
+.links button{
+    margin-top: 20px;
+    padding: 8px;
+    background:  rgb(196, 103, 196);
+    border: 1.5px solid rgb(182, 49, 182);
+    border-radius:  6px;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+}
+.links :hover{
+    background-color: white;
+    color: black;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:linear-gradient(to top,pink,white);
+    height: 90vh;
+}
+.left{
+    color:black;
+    font-size: 45px;
+    
+}
+.phrase{
+    padding-top: 20px;
+    padding-left: 10px;
+    color:black;
+    font-size: 15px;
+
+}
+#element{
+    color:rgb(149, 40, 149) ;
+}
+.btn button{
+    margin-left: 10px; 
+    padding: 6px;
+    background: rgb(189, 67, 189);
+    border: 1.5px solid rgb(144, 32, 144);
+    border-radius:  6px;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+}
+.btn button:hover{
+    background: white;
+    color: black;
+}
+.right{
+    position: sticky;
+}
+hr{
+    border:0;
+    background:pink;
+    height:1.2px;
+    margin:10px 70px;
+}
+.footer-rights{
+    color: pink;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pink{
+    font-size: 25px;
+    padding-left: 80px;
+    color:pink;
+}
+.second{
+    padding-top: 10px;
+    height: 10vh;
+    padding-bottom: 60px;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    
+}
+.img{
+    padding-left: 200px;
+    padding-bottom: 10px;
+    
+}
+.img img{
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 30px;
+    
+    
+}
+.text{
+    padding-bottom: 200px;
+    
+}
+.t{
+    padding-left: 100px ;
+}
